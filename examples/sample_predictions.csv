@@ -1,0 +1,401 @@
+sample_id,y_true,y_pred,confidence,patient_age_group,scanner_model,acquisition_view,motion_artifact_present
+CXR_0001,Pneumonia,Pneumonia,0.781,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0002,Normal,Pleural Effusion,0.687,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0003,Pneumonia,Pneumonia,0.755,Geriatric (65+),GE_Optima,AP_Portable,False
+CXR_0004,Pneumonia,Pneumonia,0.862,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0005,Normal,Normal,0.766,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0006,Pneumonia,Pneumonia,0.792,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0007,Normal,Normal,0.746,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0008,Normal,Normal,0.744,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0009,Pneumonia,Pneumonia,0.924,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0010,Normal,Normal,0.956,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0011,Normal,Normal,0.808,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0012,Normal,Normal,0.898,Pediatric (<18),Portable_Carestream,AP_Portable,False
+CXR_0013,Pneumonia,Pneumonia,0.724,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0014,Normal,Pneumonia,0.51,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0015,Pleural Effusion,Pleural Effusion,0.983,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0016,Normal,Normal,0.96,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0017,Normal,Pleural Effusion,0.51,Adult (18-64),Apex_XR400,AP_Portable,True
+CXR_0018,Pleural Effusion,Pleural Effusion,0.766,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0019,Normal,Pneumonia,0.51,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0020,Pneumonia,Pleural Effusion,0.795,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0021,Pneumonia,Normal,0.588,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0022,Normal,Normal,0.635,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0023,Normal,Normal,0.727,Pediatric (<18),Portable_Carestream,AP_Portable,False
+CXR_0024,Pleural Effusion,Pleural Effusion,0.604,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0025,Pleural Effusion,Pleural Effusion,0.804,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0026,Pleural Effusion,Pleural Effusion,0.6,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0027,Pneumonia,Pneumonia,0.908,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0028,Normal,Normal,0.78,Adult (18-64),Siemens_Multix,PA_Erect,True
+CXR_0029,Normal,Normal,0.615,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0030,Normal,Normal,0.741,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0031,Pleural Effusion,Pleural Effusion,0.615,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0032,Normal,Normal,0.816,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0033,Normal,Normal,0.692,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0034,Pleural Effusion,Pleural Effusion,0.851,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0035,Normal,Pneumonia,0.839,Geriatric (65+),Siemens_Multix,AP_Portable,True
+CXR_0036,Normal,Normal,0.819,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0037,Pneumonia,Pneumonia,0.806,Adult (18-64),GE_Optima,AP_Portable,True
+CXR_0038,Pneumonia,Pneumonia,0.789,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0039,Pleural Effusion,Pneumonia,0.656,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0040,Pneumonia,Pneumonia,0.878,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0041,Pleural Effusion,Pneumonia,0.578,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0042,Pleural Effusion,Pleural Effusion,0.752,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0043,Pleural Effusion,Pleural Effusion,0.978,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0044,Pleural Effusion,Pleural Effusion,0.788,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0045,Pneumonia,Pneumonia,0.958,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0046,Pneumonia,Pneumonia,0.906,Pediatric (<18),Portable_Carestream,AP_Portable,False
+CXR_0047,Pneumonia,Pneumonia,0.77,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0048,Normal,Normal,0.911,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0049,Pneumonia,Pneumonia,0.6,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0050,Pneumonia,Pneumonia,0.92,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0051,Normal,Normal,0.759,Adult (18-64),Apex_XR400,AP_Portable,False
+CXR_0052,Normal,Normal,0.738,Pediatric (<18),Siemens_Multix,AP_Portable,True
+CXR_0053,Normal,Normal,0.6,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0054,Normal,Normal,0.789,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0055,Pleural Effusion,Pleural Effusion,0.738,Geriatric (65+),GE_Optima,AP_Portable,False
+CXR_0056,Normal,Normal,0.794,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0057,Normal,Normal,0.782,Pediatric (<18),Siemens_Multix,AP_Portable,False
+CXR_0058,Pneumonia,Pneumonia,0.895,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0059,Normal,Pleural Effusion,0.519,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0060,Normal,Normal,0.814,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0061,Pneumonia,Pleural Effusion,0.51,Adult (18-64),Apex_XR400,AP_Portable,False
+CXR_0062,Pneumonia,Pneumonia,0.922,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0063,Normal,Pleural Effusion,0.524,Geriatric (65+),GE_Optima,AP_Portable,False
+CXR_0064,Pleural Effusion,Pleural Effusion,0.924,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0065,Pleural Effusion,Pleural Effusion,0.762,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0066,Normal,Normal,0.6,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0067,Pneumonia,Pneumonia,0.771,Adult (18-64),Siemens_Multix,AP_Portable,True
+CXR_0068,Normal,Normal,0.758,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0069,Normal,Normal,0.864,Adult (18-64),Siemens_Multix,PA_Erect,True
+CXR_0070,Pneumonia,Pneumonia,0.816,Adult (18-64),Siemens_Multix,AP_Portable,True
+CXR_0071,Normal,Normal,0.748,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0072,Pleural Effusion,Pleural Effusion,0.898,Adult (18-64),Apex_XR400,AP_Portable,False
+CXR_0073,Pneumonia,Pneumonia,0.794,Adult (18-64),Siemens_Multix,AP_Portable,True
+CXR_0074,Normal,Normal,0.795,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0075,Normal,Normal,0.637,Pediatric (<18),Portable_Carestream,AP_Portable,True
+CXR_0076,Pleural Effusion,Pleural Effusion,0.813,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0077,Normal,Pneumonia,0.891,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0078,Normal,Pneumonia,0.822,Adult (18-64),GE_Optima,AP_Portable,True
+CXR_0079,Normal,Normal,0.672,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0080,Normal,Normal,0.94,Adult (18-64),Siemens_Multix,PA_Erect,True
+CXR_0081,Pneumonia,Pneumonia,0.787,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0082,Pleural Effusion,Pleural Effusion,0.855,Pediatric (<18),Siemens_Multix,AP_Portable,False
+CXR_0083,Normal,Normal,0.681,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0084,Normal,Normal,0.955,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0085,Pneumonia,Pneumonia,0.81,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0086,Pleural Effusion,Pleural Effusion,0.65,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0087,Pneumonia,Pneumonia,0.898,Geriatric (65+),Apex_XR400,AP_Portable,False
+CXR_0088,Normal,Normal,0.772,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0089,Pneumonia,Pneumonia,0.821,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0090,Pneumonia,Pneumonia,0.891,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0091,Normal,Normal,0.978,Adult (18-64),GE_Optima,PA_Erect,True
+CXR_0092,Normal,Pleural Effusion,0.51,Adult (18-64),Apex_XR400,AP_Portable,False
+CXR_0093,Pneumonia,Pneumonia,0.694,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0094,Pneumonia,Pneumonia,0.684,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0095,Normal,Normal,0.624,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0096,Normal,Pleural Effusion,0.672,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0097,Pneumonia,Normal,0.711,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0098,Normal,Normal,0.902,Pediatric (<18),Siemens_Multix,AP_Portable,False
+CXR_0099,Pleural Effusion,Normal,0.51,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0100,Pneumonia,Pneumonia,0.942,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0101,Normal,Normal,0.936,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0102,Pneumonia,Pneumonia,0.79,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0103,Pleural Effusion,Normal,0.614,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0104,Pneumonia,Pneumonia,0.689,Geriatric (65+),GE_Optima,AP_Portable,False
+CXR_0105,Normal,Normal,0.975,Adult (18-64),Apex_XR400,PA_Erect,True
+CXR_0106,Pneumonia,Pneumonia,0.768,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0107,Pleural Effusion,Normal,0.591,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0108,Pleural Effusion,Pleural Effusion,0.856,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0109,Normal,Pneumonia,0.51,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0110,Normal,Normal,0.776,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0111,Normal,Pleural Effusion,0.764,Adult (18-64),Apex_XR400,AP_Portable,True
+CXR_0112,Normal,Normal,0.806,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0113,Pneumonia,Pneumonia,0.801,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0114,Pleural Effusion,Pleural Effusion,0.814,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0115,Normal,Normal,0.956,Geriatric (65+),Apex_XR400,AP_Portable,False
+CXR_0116,Normal,Normal,0.911,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0117,Normal,Normal,0.854,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0118,Normal,Normal,0.986,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0119,Pneumonia,Pneumonia,0.8,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0120,Normal,Pneumonia,0.528,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0121,Pneumonia,Pneumonia,0.763,Adult (18-64),Apex_XR400,PA_Erect,True
+CXR_0122,Pneumonia,Pneumonia,0.846,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0123,Normal,Normal,0.686,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0124,Normal,Normal,0.82,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0125,Normal,Normal,0.885,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0126,Pleural Effusion,Pleural Effusion,0.752,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0127,Pleural Effusion,Pleural Effusion,0.94,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0128,Normal,Normal,0.671,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0129,Pneumonia,Normal,0.674,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0130,Pneumonia,Pneumonia,0.871,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0131,Normal,Normal,0.791,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0132,Pleural Effusion,Pleural Effusion,0.737,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0133,Pneumonia,Pleural Effusion,0.521,Geriatric (65+),GE_Optima,PA_Erect,True
+CXR_0134,Normal,Pneumonia,0.71,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0135,Normal,Pleural Effusion,0.786,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0136,Pneumonia,Pneumonia,0.702,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0137,Pneumonia,Pneumonia,0.6,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0138,Normal,Normal,0.873,Geriatric (65+),GE_Optima,AP_Portable,False
+CXR_0139,Normal,Normal,0.792,Pediatric (<18),GE_Optima,AP_Portable,False
+CXR_0140,Pleural Effusion,Pleural Effusion,0.849,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0141,Normal,Normal,0.684,Pediatric (<18),Portable_Carestream,AP_Portable,False
+CXR_0142,Pneumonia,Pleural Effusion,0.556,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0143,Pleural Effusion,Pleural Effusion,0.6,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0144,Pneumonia,Pneumonia,0.625,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0145,Pneumonia,Pneumonia,0.874,Geriatric (65+),Portable_Carestream,AP_Portable,True
+CXR_0146,Pleural Effusion,Pleural Effusion,0.6,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0147,Normal,Pneumonia,0.652,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0148,Normal,Normal,0.734,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0149,Normal,Normal,0.748,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0150,Pleural Effusion,Pleural Effusion,0.884,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0151,Pneumonia,Pneumonia,0.714,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0152,Pneumonia,Pneumonia,0.885,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0153,Pleural Effusion,Pleural Effusion,0.913,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0154,Normal,Normal,0.893,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0155,Pneumonia,Pneumonia,0.782,Geriatric (65+),GE_Optima,AP_Portable,True
+CXR_0156,Pneumonia,Pneumonia,0.632,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0157,Normal,Normal,0.857,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0158,Normal,Normal,0.647,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0159,Pneumonia,Pleural Effusion,0.729,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0160,Pleural Effusion,Pleural Effusion,0.825,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0161,Pneumonia,Pleural Effusion,0.689,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0162,Pleural Effusion,Pleural Effusion,0.955,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0163,Normal,Normal,0.888,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0164,Pneumonia,Pneumonia,0.831,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0165,Normal,Pneumonia,0.51,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0166,Normal,Normal,0.84,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0167,Pleural Effusion,Pleural Effusion,0.767,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0168,Pleural Effusion,Pneumonia,0.54,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0169,Pleural Effusion,Pleural Effusion,0.889,Geriatric (65+),GE_Optima,AP_Portable,False
+CXR_0170,Normal,Normal,0.721,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0171,Pneumonia,Normal,0.827,Adult (18-64),Apex_XR400,AP_Portable,False
+CXR_0172,Pleural Effusion,Pleural Effusion,0.801,Pediatric (<18),GE_Optima,AP_Portable,False
+CXR_0173,Pneumonia,Pneumonia,0.798,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0174,Normal,Normal,0.967,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0175,Pneumonia,Pneumonia,0.865,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0176,Pneumonia,Pneumonia,0.914,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0177,Pneumonia,Pleural Effusion,0.561,Pediatric (<18),Portable_Carestream,AP_Portable,False
+CXR_0178,Normal,Normal,0.835,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0179,Pneumonia,Pneumonia,0.822,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0180,Pleural Effusion,Normal,0.698,Adult (18-64),Apex_XR400,AP_Portable,True
+CXR_0181,Normal,Normal,0.902,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0182,Pneumonia,Pneumonia,0.824,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0183,Normal,Normal,0.628,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0184,Normal,Normal,0.965,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0185,Normal,Normal,0.794,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0186,Pneumonia,Pneumonia,0.975,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0187,Normal,Pneumonia,0.51,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0188,Pneumonia,Pleural Effusion,0.603,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0189,Pneumonia,Pneumonia,0.764,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0190,Pleural Effusion,Pleural Effusion,0.829,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0191,Normal,Normal,0.876,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0192,Pleural Effusion,Pleural Effusion,0.889,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0193,Pneumonia,Pneumonia,0.6,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0194,Normal,Normal,0.916,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0195,Normal,Normal,0.6,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0196,Normal,Pleural Effusion,0.612,Geriatric (65+),Portable_Carestream,AP_Portable,True
+CXR_0197,Pleural Effusion,Pleural Effusion,0.6,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0198,Normal,Normal,0.892,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0199,Pneumonia,Pleural Effusion,0.756,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0200,Pneumonia,Pneumonia,0.76,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0201,Normal,Pneumonia,0.667,Geriatric (65+),GE_Optima,AP_Portable,False
+CXR_0202,Normal,Normal,0.886,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0203,Pneumonia,Pneumonia,0.897,Adult (18-64),Apex_XR400,PA_Erect,True
+CXR_0204,Pneumonia,Pneumonia,0.644,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0205,Pneumonia,Pleural Effusion,0.868,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0206,Normal,Normal,0.957,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0207,Normal,Normal,0.717,Pediatric (<18),Siemens_Multix,AP_Portable,False
+CXR_0208,Pleural Effusion,Pleural Effusion,0.689,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0209,Normal,Normal,0.838,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0210,Normal,Normal,0.939,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0211,Normal,Normal,0.864,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0212,Pleural Effusion,Pleural Effusion,0.813,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0213,Normal,Normal,0.727,Pediatric (<18),Siemens_Multix,PA_Erect,True
+CXR_0214,Normal,Pneumonia,0.717,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0215,Pneumonia,Pleural Effusion,0.809,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0216,Pleural Effusion,Pneumonia,0.843,Geriatric (65+),Siemens_Multix,PA_Erect,True
+CXR_0217,Normal,Normal,0.8,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0218,Normal,Normal,0.872,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0219,Normal,Normal,0.799,Geriatric (65+),Apex_XR400,AP_Portable,False
+CXR_0220,Normal,Normal,0.812,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0221,Normal,Normal,0.761,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0222,Normal,Pleural Effusion,0.54,Pediatric (<18),Portable_Carestream,AP_Portable,False
+CXR_0223,Pleural Effusion,Pleural Effusion,0.733,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0224,Normal,Normal,0.755,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0225,Normal,Normal,0.971,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0226,Pneumonia,Pneumonia,0.878,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0227,Pneumonia,Pneumonia,0.891,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0228,Pneumonia,Pneumonia,0.928,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0229,Pneumonia,Pneumonia,0.6,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0230,Normal,Pneumonia,0.51,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0231,Pneumonia,Pneumonia,0.741,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0232,Pneumonia,Pneumonia,0.773,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0233,Normal,Normal,0.839,Geriatric (65+),GE_Optima,AP_Portable,True
+CXR_0234,Normal,Normal,0.827,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0235,Pleural Effusion,Pleural Effusion,0.758,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0236,Pleural Effusion,Pneumonia,0.51,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0237,Normal,Pleural Effusion,0.7,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0238,Normal,Normal,0.99,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0239,Pleural Effusion,Pleural Effusion,0.883,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0240,Pleural Effusion,Pleural Effusion,0.6,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0241,Normal,Normal,0.931,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0242,Pneumonia,Normal,0.51,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0243,Normal,Normal,0.855,Adult (18-64),Siemens_Multix,AP_Portable,True
+CXR_0244,Normal,Normal,0.605,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0245,Pneumonia,Pneumonia,0.837,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0246,Normal,Normal,0.916,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0247,Normal,Normal,0.969,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0248,Pneumonia,Pneumonia,0.856,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0249,Normal,Normal,0.862,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0250,Pneumonia,Pneumonia,0.86,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0251,Pneumonia,Pneumonia,0.904,Adult (18-64),Apex_XR400,PA_Erect,True
+CXR_0252,Pleural Effusion,Pleural Effusion,0.876,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0253,Normal,Normal,0.894,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0254,Pleural Effusion,Pleural Effusion,0.654,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0255,Pneumonia,Pneumonia,0.86,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0256,Pleural Effusion,Pleural Effusion,0.874,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0257,Normal,Normal,0.802,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0258,Normal,Normal,0.755,Pediatric (<18),Apex_XR400,AP_Portable,True
+CXR_0259,Pneumonia,Normal,0.75,Geriatric (65+),Siemens_Multix,AP_Portable,True
+CXR_0260,Normal,Normal,0.971,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0261,Pleural Effusion,Pleural Effusion,0.6,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0262,Pneumonia,Pneumonia,0.982,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0263,Pleural Effusion,Normal,0.869,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0264,Pneumonia,Pneumonia,0.787,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0265,Normal,Normal,0.723,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0266,Pneumonia,Pneumonia,0.923,Geriatric (65+),Apex_XR400,AP_Portable,False
+CXR_0267,Normal,Normal,0.916,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0268,Pleural Effusion,Pleural Effusion,0.876,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0269,Normal,Pneumonia,0.51,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0270,Pneumonia,Pneumonia,0.806,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0271,Normal,Normal,0.913,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0272,Pleural Effusion,Pleural Effusion,0.813,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0273,Pleural Effusion,Pleural Effusion,0.934,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0274,Normal,Normal,0.896,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0275,Normal,Normal,0.778,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0276,Normal,Normal,0.745,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0277,Pleural Effusion,Normal,0.613,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0278,Normal,Pneumonia,0.841,Adult (18-64),Apex_XR400,AP_Portable,True
+CXR_0279,Pneumonia,Pneumonia,0.861,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0280,Pneumonia,Pleural Effusion,0.546,Geriatric (65+),GE_Optima,AP_Portable,True
+CXR_0281,Normal,Normal,0.973,Adult (18-64),Apex_XR400,AP_Portable,False
+CXR_0282,Pneumonia,Pneumonia,0.964,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0283,Pneumonia,Pneumonia,0.969,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0284,Normal,Normal,0.798,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0285,Pneumonia,Pneumonia,0.845,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0286,Normal,Normal,0.809,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0287,Pneumonia,Pneumonia,0.874,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0288,Normal,Pleural Effusion,0.742,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0289,Normal,Normal,0.769,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0290,Normal,Pneumonia,0.526,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0291,Pleural Effusion,Normal,0.764,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0292,Normal,Normal,0.872,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0293,Pleural Effusion,Pleural Effusion,0.944,Pediatric (<18),Apex_XR400,AP_Portable,True
+CXR_0294,Pneumonia,Pneumonia,0.97,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0295,Normal,Pneumonia,0.51,Adult (18-64),Siemens_Multix,AP_Portable,True
+CXR_0296,Pneumonia,Normal,0.715,Geriatric (65+),Portable_Carestream,AP_Portable,True
+CXR_0297,Normal,Pneumonia,0.51,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0298,Normal,Normal,0.821,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0299,Pneumonia,Pneumonia,0.73,Geriatric (65+),Apex_XR400,AP_Portable,False
+CXR_0300,Normal,Normal,0.836,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0301,Pneumonia,Pleural Effusion,0.51,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0302,Pneumonia,Pneumonia,0.785,Pediatric (<18),Siemens_Multix,AP_Portable,False
+CXR_0303,Pleural Effusion,Pleural Effusion,0.6,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0304,Normal,Normal,0.647,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0305,Pneumonia,Pleural Effusion,0.757,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0306,Pleural Effusion,Normal,0.51,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0307,Normal,Normal,0.95,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0308,Pneumonia,Pneumonia,0.784,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0309,Pneumonia,Pneumonia,0.885,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0310,Pneumonia,Pleural Effusion,0.51,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0311,Normal,Pleural Effusion,0.799,Adult (18-64),Siemens_Multix,AP_Portable,True
+CXR_0312,Normal,Normal,0.939,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0313,Normal,Normal,0.935,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0314,Pneumonia,Pneumonia,0.609,Geriatric (65+),GE_Optima,AP_Portable,True
+CXR_0315,Pneumonia,Pneumonia,0.967,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0316,Pleural Effusion,Pleural Effusion,0.765,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0317,Pleural Effusion,Pleural Effusion,0.919,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0318,Normal,Normal,0.897,Pediatric (<18),GE_Optima,AP_Portable,False
+CXR_0319,Normal,Normal,0.6,Pediatric (<18),GE_Optima,AP_Portable,False
+CXR_0320,Pleural Effusion,Pleural Effusion,0.71,Pediatric (<18),Siemens_Multix,PA_Erect,True
+CXR_0321,Normal,Pleural Effusion,0.51,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0322,Normal,Normal,0.866,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0323,Normal,Normal,0.787,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0324,Pneumonia,Pneumonia,0.883,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0325,Pleural Effusion,Pleural Effusion,0.916,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0326,Normal,Pleural Effusion,0.603,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0327,Normal,Normal,0.928,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0328,Normal,Pleural Effusion,0.51,Geriatric (65+),Portable_Carestream,AP_Portable,True
+CXR_0329,Pleural Effusion,Pleural Effusion,0.73,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0330,Pneumonia,Pneumonia,0.6,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0331,Pleural Effusion,Normal,0.811,Geriatric (65+),GE_Optima,PA_Erect,True
+CXR_0332,Normal,Pneumonia,0.594,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0333,Pneumonia,Pneumonia,0.949,Pediatric (<18),Siemens_Multix,PA_Erect,True
+CXR_0334,Normal,Normal,0.642,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0335,Pneumonia,Normal,0.51,Geriatric (65+),Siemens_Multix,PA_Erect,False
+CXR_0336,Pneumonia,Pneumonia,0.925,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0337,Normal,Normal,0.79,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0338,Pneumonia,Normal,0.739,Pediatric (<18),GE_Optima,AP_Portable,True
+CXR_0339,Pleural Effusion,Normal,0.813,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0340,Pleural Effusion,Pneumonia,0.51,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0341,Normal,Normal,0.909,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0342,Normal,Normal,0.918,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0343,Pneumonia,Pneumonia,0.787,Pediatric (<18),Portable_Carestream,AP_Portable,False
+CXR_0344,Normal,Normal,0.873,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0345,Normal,Normal,0.842,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0346,Pneumonia,Pneumonia,0.745,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0347,Pleural Effusion,Pleural Effusion,0.82,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0348,Pneumonia,Pneumonia,0.926,Adult (18-64),Siemens_Multix,AP_Portable,False
+CXR_0349,Pleural Effusion,Pleural Effusion,0.955,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0350,Pneumonia,Pneumonia,0.977,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0351,Pleural Effusion,Pleural Effusion,0.884,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0352,Pneumonia,Pleural Effusion,0.51,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0353,Pneumonia,Pneumonia,0.893,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0354,Normal,Normal,0.6,Adult (18-64),Apex_XR400,PA_Erect,True
+CXR_0355,Normal,Normal,0.943,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0356,Normal,Normal,0.6,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0357,Normal,Normal,0.661,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0358,Pleural Effusion,Pleural Effusion,0.782,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0359,Pleural Effusion,Pleural Effusion,0.727,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0360,Normal,Normal,0.903,Adult (18-64),Apex_XR400,PA_Erect,False
+CXR_0361,Pleural Effusion,Pleural Effusion,0.738,Geriatric (65+),Portable_Carestream,AP_Portable,False
+CXR_0362,Normal,Normal,0.749,Pediatric (<18),Siemens_Multix,PA_Erect,False
+CXR_0363,Pneumonia,Pneumonia,0.892,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0364,Pneumonia,Pneumonia,0.813,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0365,Normal,Normal,0.916,Geriatric (65+),Siemens_Multix,AP_Portable,False
+CXR_0366,Pneumonia,Pneumonia,0.614,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0367,Normal,Normal,0.776,Adult (18-64),GE_Optima,AP_Portable,True
+CXR_0368,Normal,Normal,0.861,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0369,Pleural Effusion,Pleural Effusion,0.961,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0370,Normal,Normal,0.698,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0371,Pneumonia,Pneumonia,0.725,Adult (18-64),Siemens_Multix,PA_Erect,True
+CXR_0372,Normal,Normal,0.651,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0373,Pleural Effusion,Pleural Effusion,0.937,Geriatric (65+),Apex_XR400,AP_Portable,False
+CXR_0374,Pleural Effusion,Pneumonia,0.666,Geriatric (65+),Portable_Carestream,AP_Portable,True
+CXR_0375,Pneumonia,Pleural Effusion,0.639,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0376,Pneumonia,Pneumonia,0.818,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0377,Pneumonia,Pleural Effusion,0.857,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0378,Normal,Normal,0.926,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0379,Pleural Effusion,Pleural Effusion,0.6,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0380,Normal,Normal,0.865,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0381,Normal,Normal,0.845,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0382,Normal,Normal,0.757,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0383,Pneumonia,Pneumonia,0.888,Pediatric (<18),GE_Optima,PA_Erect,False
+CXR_0384,Pneumonia,Pneumonia,0.687,Pediatric (<18),Apex_XR400,PA_Erect,False
+CXR_0385,Normal,Normal,0.68,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0386,Pneumonia,Pleural Effusion,0.51,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0387,Normal,Normal,0.955,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0388,Pneumonia,Pneumonia,0.773,Adult (18-64),Portable_Carestream,AP_Portable,False
+CXR_0389,Normal,Normal,0.924,Pediatric (<18),Siemens_Multix,AP_Portable,False
+CXR_0390,Pleural Effusion,Pneumonia,0.514,Geriatric (65+),GE_Optima,AP_Portable,True
+CXR_0391,Pneumonia,Pneumonia,0.783,Adult (18-64),GE_Optima,AP_Portable,False
+CXR_0392,Pleural Effusion,Pleural Effusion,0.62,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0393,Normal,Normal,0.838,Geriatric (65+),GE_Optima,PA_Erect,False
+CXR_0394,Pleural Effusion,Normal,0.735,Adult (18-64),Portable_Carestream,AP_Portable,True
+CXR_0395,Pneumonia,Pneumonia,0.708,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0396,Normal,Normal,0.804,Adult (18-64),GE_Optima,PA_Erect,False
+CXR_0397,Pleural Effusion,Pneumonia,0.636,Geriatric (65+),Apex_XR400,PA_Erect,False
+CXR_0398,Normal,Normal,0.757,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0399,Normal,Normal,0.868,Adult (18-64),Siemens_Multix,PA_Erect,False
+CXR_0400,Normal,Normal,0.656,Adult (18-64),Siemens_Multix,PA_Erect,False

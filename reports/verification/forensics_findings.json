@@ -1,0 +1,235 @@
+{
+  "dataset_name": "sample_predictions.csv",
+  "aggregate_metrics": {
+    "total_samples": 400,
+    "total_errors": 84,
+    "overall_accuracy": 0.79,
+    "overall_error_rate": 0.21,
+    "balanced_accuracy": 0.7849088907912437,
+    "macro_precision": 0.7700942529774003,
+    "macro_recall": 0.7849088907912437,
+    "macro_f1": 0.7753732692365071,
+    "weighted_f1": 0.7926834710221619,
+    "classes": [
+      "Normal",
+      "Pleural Effusion",
+      "Pneumonia"
+    ],
+    "confusion_matrix": [
+      [
+        149,
+        16,
+        20
+      ],
+      [
+        11,
+        65,
+        9
+      ],
+      [
+        9,
+        19,
+        102
+      ]
+    ],
+    "mean_conf_correct": 0.8108259493670886,
+    "mean_conf_incorrect": 0.6381666666666667,
+    "high_confidence_errors": 12,
+    "high_confidence_error_rate": 0.14285714285714285,
+    "ece": 0.0797625
+  },
+  "per_class_metrics": [
+    {
+      "class_name": "Normal",
+      "support": 185,
+      "true_positives": 149,
+      "false_negatives": 36,
+      "false_positives": 20,
+      "true_negatives": 195,
+      "precision": 0.8816568047337278,
+      "recall_sensitivity": 0.8054054054054054,
+      "specificity": 0.9069767441860465,
+      "f1_score": 0.8418079096045198,
+      "class_error_rate": 0.1945945945945946
+    },
+    {
+      "class_name": "Pleural Effusion",
+      "support": 85,
+      "true_positives": 65,
+      "false_negatives": 20,
+      "false_positives": 35,
+      "true_negatives": 280,
+      "precision": 0.65,
+      "recall_sensitivity": 0.7647058823529411,
+      "specificity": 0.8888888888888888,
+      "f1_score": 0.7027027027027027,
+      "class_error_rate": 0.23529411764705882
+    },
+    {
+      "class_name": "Pneumonia",
+      "support": 130,
+      "true_positives": 102,
+      "false_negatives": 28,
+      "false_positives": 29,
+      "true_negatives": 241,
+      "precision": 0.7786259541984732,
+      "recall_sensitivity": 0.7846153846153846,
+      "specificity": 0.8925925925925926,
+      "f1_score": 0.7816091954022989,
+      "class_error_rate": 0.2153846153846154
+    }
+  ],
+  "subgroup_analysis": {
+    "patient_age_group": [
+      {
+        "subgroup_column": "patient_age_group",
+        "subgroup_value": "Geriatric (65+)",
+        "sample_count": 112,
+        "error_count": 35,
+        "error_rate": 0.3125,
+        "ci_95_lower": 0.2340822476153025,
+        "ci_95_upper": 0.40335325772447517,
+        "risk_ratio": 1.4880952380952381,
+        "excess_errors": 11,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6325714285714285
+      },
+      {
+        "subgroup_column": "patient_age_group",
+        "subgroup_value": "Adult (18-64)",
+        "sample_count": 224,
+        "error_count": 41,
+        "error_rate": 0.18303571428571427,
+        "ci_95_lower": 0.137884947678458,
+        "ci_95_upper": 0.23887466096686266,
+        "risk_ratio": 0.8715986394557823,
+        "excess_errors": -6,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6405365853658537
+      },
+      {
+        "subgroup_column": "patient_age_group",
+        "subgroup_value": "Pediatric (<18)",
+        "sample_count": 64,
+        "error_count": 8,
+        "error_rate": 0.125,
+        "ci_95_lower": 0.06472242630161115,
+        "ci_95_upper": 0.2277456191750217,
+        "risk_ratio": 0.5952380952380952,
+        "excess_errors": -5,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6505
+      }
+    ],
+    "scanner_model": [
+      {
+        "subgroup_column": "scanner_model",
+        "subgroup_value": "Portable_Carestream",
+        "sample_count": 70,
+        "error_count": 30,
+        "error_rate": 0.42857142857142855,
+        "ci_95_lower": 0.319353088010158,
+        "ci_95_upper": 0.5452216353024526,
+        "risk_ratio": 2.0408163265306123,
+        "excess_errors": 15,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6208666666666667
+      },
+      {
+        "subgroup_column": "scanner_model",
+        "subgroup_value": "Apex_XR400",
+        "sample_count": 73,
+        "error_count": 15,
+        "error_rate": 0.2054794520547945,
+        "ci_95_lower": 0.12866972062718945,
+        "ci_95_upper": 0.3117365310757354,
+        "risk_ratio": 0.9784735812133072,
+        "excess_errors": 0,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6183333333333331
+      },
+      {
+        "subgroup_column": "scanner_model",
+        "subgroup_value": "Siemens_Multix",
+        "sample_count": 133,
+        "error_count": 23,
+        "error_rate": 0.17293233082706766,
+        "ci_95_lower": 0.11808736478637645,
+        "ci_95_upper": 0.2461404013362523,
+        "risk_ratio": 0.8234872896527031,
+        "excess_errors": -4,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6676086956521737
+      },
+      {
+        "subgroup_column": "scanner_model",
+        "subgroup_value": "GE_Optima",
+        "sample_count": 124,
+        "error_count": 16,
+        "error_rate": 0.12903225806451613,
+        "ci_95_lower": 0.08100831267044237,
+        "ci_95_upper": 0.19935033776216646,
+        "risk_ratio": 0.6144393241167435,
+        "excess_errors": -10,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6468750000000001
+      }
+    ],
+    "acquisition_view": [
+      {
+        "subgroup_column": "acquisition_view",
+        "subgroup_value": "AP_Portable",
+        "sample_count": 159,
+        "error_count": 50,
+        "error_rate": 0.31446540880503143,
+        "ci_95_lower": 0.24739534150096204,
+        "ci_95_upper": 0.39028906389970247,
+        "risk_ratio": 1.4974543276430068,
+        "excess_errors": 16,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.64126
+      },
+      {
+        "subgroup_column": "acquisition_view",
+        "subgroup_value": "PA_Erect",
+        "sample_count": 241,
+        "error_count": 34,
+        "error_rate": 0.14107883817427386,
+        "ci_95_lower": 0.10274533635798032,
+        "ci_95_upper": 0.1906749822822797,
+        "risk_ratio": 0.671803991306066,
+        "excess_errors": -16,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6336176470588235
+      }
+    ],
+    "motion_artifact_present": [
+      {
+        "subgroup_column": "motion_artifact_present",
+        "subgroup_value": "True",
+        "sample_count": 57,
+        "error_count": 25,
+        "error_rate": 0.43859649122807015,
+        "ci_95_lower": 0.3177269681324971,
+        "ci_95_upper": 0.567219906437732,
+        "risk_ratio": 2.0885547201336676,
+        "excess_errors": 13,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6686799999999999
+      },
+      {
+        "subgroup_column": "motion_artifact_present",
+        "subgroup_value": "False",
+        "sample_count": 343,
+        "error_count": 59,
+        "error_rate": 0.17201166180758018,
+        "ci_95_lower": 0.1357617848342924,
+        "ci_95_upper": 0.21552683929467992,
+        "risk_ratio": 0.8191031514646675,
+        "excess_errors": -13,
+        "is_unstable_small_cohort": false,
+        "mean_error_confidence": 0.6252372881355931
+      }
+    ]
+  }
+}
